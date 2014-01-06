@@ -177,9 +177,9 @@ jsonTitles(function(content){
 
  /*if( /Chrome|Safari|IE/i.test(navigator.userAgent) ) {*/
 
-     $('#com div a').on('mousedown', function(){
+     $('#com div a').on('touchstart', function(){
          $(this).css({'background': 'rgb(95,95,95)', 'color': '#fff'});
-            }).on('mouseup', function(){
+            }).on('touchend', function(){
                 $(this).css({'background': 'rgba(255,255,255,.7)', 'color': 'rgb(95,95,95)'});
                 });
            
