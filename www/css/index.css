@@ -1,3 +1,10 @@
+#home div.ui-panel .ui-panel-inner {
+    overflow: auto;
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;  
+    -webkit-overflow-scrolling: touch;
+}
+
 #noconnect{
     width: 70%;
     align-content:center;
@@ -103,6 +110,7 @@
 #homeList li, #newslist li, .ui-btn.ui-btn-icon-right.ui-li-has-arrow.ui-li.ui-btn-up-c {
     background: #fafafa;
 }
+
 .arrow-right, .arrow-right-news{
     background-image: url('../images/arr_r.png');
     background-repeat: no-repeat;
