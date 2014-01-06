@@ -17,6 +17,7 @@
 }
 #loadText{
     font: bold 2.5em  Helvetica Neue, Helveltica, Calibri, Arial, Verdana, sans-serif !important;
+    font-weight: 200 !important;
     color: #f0f0f0 !important;
     bottom: 0 !important;
     text-align: center !important;
@@ -33,15 +34,15 @@
     color: rgb(95,95,95);
 }
 .home-display h3{
-    
-    font-size: 2.5em;
-    margin: 20px auto;
+    width: 30%;
+    font-size: 2em;
+    margin: 20px 0;
     font-weight: 100;
+    letter-spacing: -1px;
 }
 .home-display p{
-    
-    margin: 50px auto;
-    font-weight: 100;
+    margin: 20px 0;
+    width: 30%;
 }
 
 #home div.ui-panel-content-wrap-closed{
