@@ -98,7 +98,7 @@ jsonTitles(function(content){
         homeList.append(
             $('<li />', {
                 'data-theme': 'c'
-            }).html('<a href="#' + pageid + '"><span class="icon-' + pageid + '">' + pagetitle + '</span></a><span class="arrow-right"></span>')).listview('refresh');
+            }).html('<a href="#' + pageid + '"><span class="icon-' + pageid + '">&nbsp;' + pagetitle + '</span></a><span class="arrow-right"></span>')).listview('refresh');
             
             
 ///////////////////Creates the individual pages for each section////////////////
@@ -392,7 +392,7 @@ $(app.pagelist).each(function(i){
             $('[data-role="panel"] ul:not(#homeList)').append(
                         $('<li />', {
                             'data-theme': 'c'
-                        }).html('<a href="#' + app.pageidlist[i] +'"><span class="icon-' + app.pageidlist[i] + '">' + this + '</span></a><span class="arrow-right"></span>'));
+                        }).html('<a href="#' + app.pageidlist[i] +'"><span class="icon-' + app.pageidlist[i] + '">&nbsp;' + this + '</span></a><span class="arrow-right"></span>'));
                
     });
         

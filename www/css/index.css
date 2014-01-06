@@ -45,13 +45,13 @@
     width: 30%;
 }
 
-#home div.ui-panel-content-wrap-closed{
+#home div.ui-panel-content-wrap-closed, #home div.ui-body-c:not(#left-panel){
     background-image: url('../images/montage/home_720.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
       
 }
-#home div.ui-panel-content-wrap-open{
+#home div.ui-panel-content-wrap-open, #home div.ui-body-c:not(#left-panel){
     background-image: url('../images/montage/home_720.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -269,6 +269,12 @@
     text-shadow: none;
     margin: 5px 16px;
 }
+/*#com div a#call{
+    background-image: url('../images/call_gr.png');
+    background-repeat: no-repeat;
+    background-size: 17px;
+    padding-left: 17px;   
+}*/
 #com div a img{
     margin: 10px 25% 0;
     max-height: 40%;
@@ -499,7 +505,7 @@ span .ui-icon .ui-icon-plus{
 }
 
 /* Maps */
-#maps, #mapsContent,.ui-panel-content-wrap.ui-body-c.ui-panel-animate.ui-panel-content-wrap-closed { 
+#maps, #mapsContent,#maps div.ui-panel-content-wrap.ui-body-c.ui-panel-animate.ui-panel-content-wrap-closed { 
     width: 100%; 
     height: 97%; 
     padding: 0; 
@@ -507,7 +513,6 @@ span .ui-icon .ui-icon-plus{
 #maps div.ui-panel-content-wrap.ui-body-c.ui-panel-animate.ui-panel-content-wrap-position-left.ui-panel-content-wrap-display-reveal.ui-panel-content-wrap-open{
     height: 97%;   
 }
-
 .app .ui-listview li .ui-btn p {
     color: #939393 !important;
 }
