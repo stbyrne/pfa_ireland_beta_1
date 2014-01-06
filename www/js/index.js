@@ -463,7 +463,7 @@ $(app.pagelist).each(function(i){
 
 //////////////////Add interactive behaviour to menu & home button///////////////////////
     
-setTimeout(function(){
+/*setTimeout(function(){
     
     var $menu = $('#menuNav');
     
@@ -491,7 +491,7 @@ setTimeout(function(){
         }, 300);
     });
     
-}, 5000);
+}, 5000);*/
 
 
 
