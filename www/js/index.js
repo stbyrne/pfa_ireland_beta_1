@@ -180,7 +180,7 @@ jsonTitles(function(content){
      $('#com div a').on('touchstart', function(){
          $(this).css({'background': 'rgb(95,95,95)', 'color': '#fff'});
             }).on('touchend', function(){
-                $(this).css({'background': 'rgba(255,255,255,.7)', 'color': 'rgb(95,95,95)'});
+                $(this).css({'background': 'rgba(255,255,255,.6)', 'color': 'rgb(95,95,95)'});
                 });
            
         /*}else{

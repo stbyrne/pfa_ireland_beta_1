@@ -265,7 +265,7 @@
     color: rgb(95,95,95);
     text-align: center;
     background: #fafafa;
-    background: rgba(255, 255, 255, .75);
+    background: rgba(255, 255, 255, .6);
     -webkit-box-shadow: inset 0 -1px 1px rgba(95,95,95,.8);
     -moz-box-shadow: inset 0 -1px 1px rgb(0,0,0);
     -ms-box-shadow: inset 0 -1px 1px rgb(0,0,0);
@@ -539,11 +539,24 @@ span .ui-icon .ui-icon-plus{
     
     /*Homepage Image*/
     
-    .home-image{
-    background-position: 0 -250px;
-    height: 800px;  
+    #home div.ui-panel-content-wrap-closed, #home div.ui-body-c:not(#left-panel){
+    background-image: url('../images/montage/home_768.png');
+      
     }
-    
+#home div.ui-panel-content-wrap-open, #home div.ui-body-c:not(#left-panel){
+    background-image: url('../images/montage/home_768.png');
+      
+    }
+    .home-display h3{
+    width: 35%;
+    font-size: 2.5em;
+    letter-spacing: 0;
+    }
+.home-display p{
+    margin: 20px 0;
+    width: 30%;
+    font-size: 1.4em;
+    }
     .feature img, .static-image{
     max-width: 60%;
     
