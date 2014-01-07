@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #home .ui-panel .ui-panel-inner {
+=======
+.ui-panel .ui-panel-inner {
+>>>>>>> 08900cfc8b91a1c2441226c5fac6806c45a98247
     overflow: auto;
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;  
