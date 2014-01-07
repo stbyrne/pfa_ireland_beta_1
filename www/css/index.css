@@ -1,4 +1,4 @@
-#home div.ui-panel .ui-panel-inner {
+#home .ui-panel .ui-panel-inner {
     overflow: auto;
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;  
@@ -64,6 +64,15 @@
     background-size: 100% 100%;
       
 }
+
+#contact{
+    background-image: url('../images/montage/home_720.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+      
+}
+
+
 .ui-header{
     height: 60px;   
 }
@@ -102,6 +111,38 @@
     margin: -.15em 2px;
     /*position: relative;*/
 }
+
+#cont-link{
+    bottom: 10px;
+    position: fixed;
+    width: 80%;
+    margin: auto 10%;
+}
+#cont-link a {
+    text-decoration: none;
+    height: 40px;
+    width: 100%;
+    float: left;
+    text-align: center;
+    color: #fff;
+    background: rgba(255,255,255,.3);
+    border-bottom: 1px solid rgb(130,130,130);
+}
+#cont-link a span:not(.arrow-right-home){
+    text-align: center;
+    font: 1.4em Helvetica Neue, Helveltica, Calibri, Arial, Verdana, sans-serif;
+    font-weight: 300;
+    text-shadow: none;
+    position: relative;
+    top: 20%; 
+}
+
+#cont-link a:active {
+    color: #fff;
+    background: rgba(95,95,95,.7);
+    border-bottom: 1px solid rgb(250,250,250);
+}
+
 /* Over-ride listviews*/
 #newslist li h2{
      font-weight: 300;  
@@ -112,6 +153,13 @@
 }
 
 .arrow-right, .arrow-right-news{
+    background-image: url('../images/arr_r.png');
+    background-repeat: no-repeat;
+    background-position: 0;
+    right: 5px;
+    position: absolute;
+}
+.arrow-right-home{
     background-image: url('../images/arr_r.png');
     background-repeat: no-repeat;
     background-position: 0;
@@ -130,6 +178,13 @@
     width: 25px;
     height: 25px;
 }
+.arrow-right-home{
+    background-size: 12px;
+    top: 25%;
+    width: 25px;
+    height: 25px;
+}
+
 #listLeft li.ui-btn-active a.ui-link-inherit, #homeList li.ui-btn-active a.ui-link-inherit, #newslist li.ui-btn-active a.ui-link-inherit{
     color: #fff;
     text-shadow: none;
@@ -236,14 +291,14 @@
 
 /* Communications footer on homepage*/
 #com{
-    left:0;
+    /*left:0;
     bottom: 0;
     width: 100%;
     height: 60px;
     position: fixed;
     z-index: 100;
     background: none;
-    border: none;
+    border: none;*/
 }
 #com div a{
     /*display: -webkit-box;
@@ -259,13 +314,13 @@
     /*padding: 10px;*/
     height: 60px;
     bottom: 0;
-    width: 25%;
+    width: 100%;
     float: left;
     text-decoration: none;
     color: rgb(95,95,95);
     text-align: center;
     background: #fafafa;
-    background: rgba(255, 255, 255, .75);
+    background: rgba(255, 255, 255, .6);
     -webkit-box-shadow: inset 0 -1px 1px rgba(95,95,95,.8);
     -moz-box-shadow: inset 0 -1px 1px rgb(0,0,0);
     -ms-box-shadow: inset 0 -1px 1px rgb(0,0,0);
@@ -539,11 +594,24 @@ span .ui-icon .ui-icon-plus{
     
     /*Homepage Image*/
     
-    .home-image{
-    background-position: 0 -250px;
-    height: 800px;  
+    #home div.ui-panel-content-wrap-closed, #home div.ui-body-c:not(#left-panel){
+    background-image: url('../images/montage/home_768.png');
+      
     }
-    
+#home div.ui-panel-content-wrap-open, #home div.ui-body-c:not(#left-panel){
+    background-image: url('../images/montage/home_768.png');
+      
+    }
+    .home-display h3{
+    width: 35%;
+    font-size: 2.5em;
+    letter-spacing: 0;
+    }
+.home-display p{
+    margin: 20px 0;
+    width: 30%;
+    font-size: 1.4em;
+    }
     .feature img, .static-image{
     max-width: 60%;
     

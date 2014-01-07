@@ -180,7 +180,7 @@ jsonTitles(function(content){
      $('#com div a').on('touchstart', function(){
          $(this).css({'background': 'rgb(95,95,95)', 'color': '#fff'});
             }).on('touchend', function(){
-                $(this).css({'background': 'rgba(255,255,255,.7)', 'color': 'rgb(95,95,95)'});
+                $(this).css({'background': 'rgba(255,255,255,.6)', 'color': 'rgb(95,95,95)'});
                 });
            
         /*}else{
@@ -463,7 +463,7 @@ $(app.pagelist).each(function(i){
 
 //////////////////Add interactive behaviour to menu & home button///////////////////////
     
-setTimeout(function(){
+/*setTimeout(function(){
     
     var $menu = $('#menuNav');
     
@@ -491,7 +491,7 @@ setTimeout(function(){
         }, 300);
     });
     
-}, 5000);
+}, 5000);*/
 
 
 
